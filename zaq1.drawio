@@ -1,0 +1,396 @@
+<mxfile host="65bd71144e">
+    <diagram id="LIjLPXJZyaiGJ_FhWR-I" name="第1頁">
+        <mxGraphModel dx="834" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="顧客" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="104" y="40" width="30" height="1000" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="點餐機" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="40" width="100" height="1000" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="3">
+                    <mxGeometry x="40" y="90" width="20" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="選擇商品" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="3">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="61" y="101" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="110" y="101"/>
+                            <mxPoint x="110" y="112"/>
+                        </Array>
+                        <mxPoint x="60.61999999999989" y="111.56" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="加入購物車" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="3">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="60.379999999999995" y="180" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="109.38" y="180"/>
+                            <mxPoint x="109.38" y="191"/>
+                        </Array>
+                        <mxPoint x="59.999999999999886" y="190.56" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="結帳購物車" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="3">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="60.379999999999995" y="214" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="109.38" y="214"/>
+                            <mxPoint x="109.38" y="225"/>
+                        </Array>
+                        <mxPoint x="59.999999999999886" y="224.56" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="餐廳系統" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="40" width="100" height="1000" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="紀錄訂單" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="4">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="51" y="260" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="260"/>
+                            <mxPoint x="100" y="271"/>
+                        </Array>
+                        <mxPoint x="50.61999999999989" y="270.56" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="4">
+                    <mxGeometry x="40" y="300" width="20" height="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="員工" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="40" width="100" height="1000" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="5">
+                    <mxGeometry x="40" y="390" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="確認訂單狀態" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="5">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="60.379999999999995" y="404.69" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="130" y="405"/>
+                            <mxPoint x="130" y="415"/>
+                        </Array>
+                        <mxPoint x="59.999999999999886" y="415.24999999999994" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="5">
+                    <mxGeometry x="40" y="490" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="處理訂單" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="5">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="60.37999999999988" y="504.68999999999994" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="110" y="505"/>
+                            <mxPoint x="110" y="515"/>
+                        </Array>
+                        <mxPoint x="60" y="515.25" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="顯示新訂單" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" parent="5" target="29">
+                    <mxGeometry x="-0.8889" relative="1" as="geometry">
+                        <mxPoint x="-140" y="490" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="完成訂單" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;align=left;" edge="1" parent="5" source="29">
+                    <mxGeometry x="0.8889" relative="1" as="geometry">
+                        <mxPoint x="-140" y="528" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="5">
+                    <mxGeometry x="40" y="590" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="領取餐點" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="5">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="60.37999999999988" y="604.6899999999999" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="110" y="605"/>
+                            <mxPoint x="110" y="615"/>
+                        </Array>
+                        <mxPoint x="60" y="615.25" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="顯示已完成訂單" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" parent="5" target="33">
+                    <mxGeometry x="-0.8889" relative="1" as="geometry">
+                        <mxPoint x="-140" y="590" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="領取餐點" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="5" source="33">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-140" y="628" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="盤點原物料數量" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" parent="5">
+                    <mxGeometry x="-0.9474" relative="1" as="geometry">
+                        <mxPoint x="-140" y="692" as="sourcePoint"/>
+                        <mxPoint x="240" y="692.0000000000005" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="提供庫存狀況" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;align=left;" edge="1" parent="5" source="37">
+                    <mxGeometry x="0.9474" relative="1" as="geometry">
+                        <mxPoint x="-140" y="728" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="回傳補充結果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;align=left;" edge="1" parent="5">
+                    <mxGeometry x="0.9474" relative="1" as="geometry">
+                        <mxPoint x="-140" y="910" as="targetPoint"/>
+                        <mxPoint x="240" y="909.9999999999995" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="倉庫管理人員" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="830" y="40" width="100" height="1000" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="6">
+                    <mxGeometry x="40" y="301" width="20" height="29" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="6">
+                    <mxGeometry x="40" y="690" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="6">
+                    <mxGeometry x="40" y="760" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="6">
+                    <mxGeometry x="40" y="870" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="補充原物料" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="6">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="60.37999999999988" y="884.69" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="120" y="885"/>
+                            <mxPoint x="120" y="895"/>
+                        </Array>
+                        <mxPoint x="59.99999999999977" y="895.25" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="開始點餐" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="120" y="130" as="sourcePoint"/>
+                        <mxPoint x="270" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="調整設定(例如去冰、加醬包)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="1">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="290.38" y="180" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="339.38" y="180"/>
+                            <mxPoint x="339.38" y="191"/>
+                        </Array>
+                        <mxPoint x="289.9999999999999" y="190.56" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="提交訂單" style="html=1;verticalAlign=bottom;endArrow=block;align=left;" edge="1" parent="1" target="4">
+                    <mxGeometry x="-1" width="80" relative="1" as="geometry">
+                        <mxPoint x="290" y="290" as="sourcePoint"/>
+                        <mxPoint x="370" y="290" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="查詢庫存狀況" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="18" parent="1">
+                    <mxGeometry x="-0.9474" y="1" relative="1" as="geometry">
+                        <mxPoint x="490" y="341" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="回傳存狀況" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;align=left;" edge="1" source="18" parent="1">
+                    <mxGeometry x="0.9529" y="2" relative="1" as="geometry">
+                        <mxPoint x="490" y="370" as="targetPoint"/>
+                        <mxPoint x="870" y="340" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="更新庫存數量" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="1">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="490.38" y="400" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="560" y="400"/>
+                            <mxPoint x="560" y="411"/>
+                        </Array>
+                        <mxPoint x="489.9999999999999" y="410.55999999999995" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="顯示新訂單" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="24" parent="1">
+                    <mxGeometry x="-0.8889" relative="1" as="geometry">
+                        <mxPoint x="490" y="430" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="確認訂單狀態" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;align=left;" edge="1" source="24" parent="1" target="17">
+                    <mxGeometry x="0.8889" y="2" relative="1" as="geometry">
+                        <mxPoint x="490" y="506" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="獲取新訂單" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="1">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="490.3799999999999" y="499.99999999999994" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="550" y="500"/>
+                            <mxPoint x="550" y="511"/>
+                        </Array>
+                        <mxPoint x="490" y="510.56" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="盤點原物料" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="1">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="890.3799999999999" y="744.6899999999999" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="950" y="745"/>
+                            <mxPoint x="950" y="755"/>
+                        </Array>
+                        <mxPoint x="890" y="755.25" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="確認進貨需求" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="1">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="890.3799999999999" y="810.02" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="960" y="810.33"/>
+                            <mxPoint x="960" y="820.33"/>
+                        </Array>
+                        <mxPoint x="890" y="820.58" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="確認是否進貨" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" parent="1" target="41" source="17">
+                    <mxGeometry x="-0.9474" relative="1" as="geometry">
+                        <mxPoint x="490" y="830" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="回傳進貨需求" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;align=left;" edge="1" parent="1" source="41">
+                    <mxGeometry x="0.9474" relative="1" as="geometry">
+                        <mxPoint x="490" y="840" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="進貨申請" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" parent="1">
+                    <mxGeometry x="-0.9474" relative="1" as="geometry">
+                        <mxPoint x="490" y="910" as="sourcePoint"/>
+                        <mxPoint x="870" y="910.0000000000005" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="更新訂單狀態" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="1">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="490.3799999999999" y="600" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="560" y="600"/>
+                            <mxPoint x="560" y="611"/>
+                        </Array>
+                        <mxPoint x="490" y="610.5600000000001" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="移除以完成訂單" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="1">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="490.3799999999999" y="700" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="570" y="700"/>
+                            <mxPoint x="570" y="711"/>
+                        </Array>
+                        <mxPoint x="490" y="710.5600000000001" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="監控原物料數量" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.031;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="1">
+                    <mxGeometry x="-0.9718" y="1" relative="1" as="geometry">
+                        <mxPoint x="490.3799999999999" y="870" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="570" y="870"/>
+                            <mxPoint x="570" y="881"/>
+                        </Array>
+                        <mxPoint x="490" y="880.5600000000001" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="顧客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="104" y="1040" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="點餐機" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="1040" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="點餐系統" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="1040" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="員工" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="625" y="1040" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="倉庫管理人員" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="1040" width="110" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="tsOP35mYXyTID_oTKbZg" name="合約圖">
+        <mxGraphModel dx="1001" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-1" value="合約１：點餐系統" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="40" width="320" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-2" value="操作：員工協助顧客在點餐機上點餐，並記下要求" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W9BJToiPSOHZqmJWqYUr-1">
+                    <mxGeometry y="26" width="320" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-3" value="互相參照：顧客點餐" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W9BJToiPSOHZqmJWqYUr-1">
+                    <mxGeometry y="52" width="320" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-5" value="前置條件：顧客在麥當勞系統點餐" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W9BJToiPSOHZqmJWqYUr-1">
+                    <mxGeometry y="78" width="320" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-4" value="後置條件：員工紀錄顧客點餐並記錄特殊要求" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W9BJToiPSOHZqmJWqYUr-1">
+                    <mxGeometry y="104" width="320" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-6" value="合約２：訂單狀況" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="200" width="320" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-7" value="操作：確認訂單的最新狀態，並獲取新的訂單" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W9BJToiPSOHZqmJWqYUr-6">
+                    <mxGeometry y="26" width="320" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-8" value="互相參照：確認訂單的最新狀態" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W9BJToiPSOHZqmJWqYUr-6">
+                    <mxGeometry y="52" width="320" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-9" value="前置條件：顧客點餐機點餐完畢結算購物車後列印出明細&#10;　　　　　與訂單編號並將訂單的詳細資訊顯示到櫃台內&#10;　　　　　的螢幕上方" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W9BJToiPSOHZqmJWqYUr-6">
+                    <mxGeometry y="78" width="320" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-10" value="後置條件：員工確認訂單是否正常增加與消除" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W9BJToiPSOHZqmJWqYUr-6">
+                    <mxGeometry y="130" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-11" value="合約３：盤點原物料" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="390" width="320" height="138" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-12" value="操作：管理人員使用平板檢查原物料庫存，了解數量和保&#10;　　　存期限等相關訊息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W9BJToiPSOHZqmJWqYUr-11">
+                    <mxGeometry y="26" width="320" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-13" value="互相參照：盤點庫存" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W9BJToiPSOHZqmJWqYUr-11">
+                    <mxGeometry y="60" width="320" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-14" value="前置條件：原物料進倉前有確實登記數量及保存期限" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W9BJToiPSOHZqmJWqYUr-11">
+                    <mxGeometry y="86" width="320" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="W9BJToiPSOHZqmJWqYUr-15" value="後置條件：倉庫管理員了解平板的使用的方式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W9BJToiPSOHZqmJWqYUr-11">
+                    <mxGeometry y="112" width="320" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
